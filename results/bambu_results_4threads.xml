@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<bambu_results bambu_args="/data1/home/curzel/panda-private/bin/bambu --top-fname=updateGridNew -v6 --compiler=I386_CLANG13 -O3 --device-name=xcu55c-2Lfsvh2892-VVD --clock-period=5 --generate-tb=testbench.cpp --simulator=VERILATOR -DBAMBU_SKIP_VERIFICATION --channels-number=1 --channels-type=MEM_ACC_11 --evaluation --memory-allocation-policy=NO_BRAM -fopenmp -DTHREAD_NUMBER=4 accelerator.cpp " bambu_version="Version: PandA 2025.02 - Revision 28f48331ee9d5a35097634a1f05ee8f2014235e6-dev/private" timestamp="2025-07-25T16:45:20" benchmark_name="updateGridNew_5">
+  <AREA value="32048"/>
+  <SLICE value="6051"/>
+  <SLICE_LUTS value="32048"/>
+  <AREAxTIME value="519717.54470399994"/>
+  <BRAMS value="0"/>
+  <CLOCK_SLACK value="-0.23799999999999955"/>
+  <CYCLES value="3096"/>
+  <DRAMS value="160"/>
+  <DSPS value="40"/>
+  <FREQUENCY value="190.91256204658268"/>
+  <PERIOD value="5.2379999999999995"/>
+  <REGISTERS value="17418"/>
+  <TIME value="16.216847999999999"/>
+  <TOTAL_CYCLES value="3096"/>
+  <TOTAL_TIME value="16.216847999999999"/>
+  <HLS_execution_time value="43.6899999999999999988"/>
+</bambu_results>
