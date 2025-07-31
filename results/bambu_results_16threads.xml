@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<bambu_results bambu_args="/data1/home/curzel/panda-private/bin/bambu --top-fname=updateGridNew -v6 --compiler=I386_CLANG13 -O3 --device-name=xcu55c-2Lfsvh2892-VVD --clock-period=5 --generate-tb=testbench.cpp --simulator=VERILATOR -DBAMBU_SKIP_VERIFICATION --channels-number=1 --channels-type=MEM_ACC_11 --evaluation --memory-allocation-policy=NO_BRAM -fopenmp -DTHREAD_NUMBER=16 accelerator.cpp " bambu_version="Version: PandA 2025.02 - Revision 28f48331ee9d5a35097634a1f05ee8f2014235e6-dev/private" timestamp="2025-07-26T06:02:30" benchmark_name="updateGridNew_7">
-  <AREA value="116437"/>
-  <SLICE value="20886"/>
-  <SLICE_LUTS value="116437"/>
-  <AREAxTIME value="1473714.5819349999"/>
+<bambu_results bambu_args="/data1/home/curzel/panda-private/bin/bambu --top-fname=updateGridNew -v6 --compiler=I386_CLANG13 -O3 --device-name=xcu55c-2Lfsvh2892-VVD --clock-period=5 --generate-tb=testbench.cpp --simulator=VERILATOR --channels-number=1 --channels-type=MEM_ACC_11 --memory-allocation-policy=NO_BRAM -fopenmp -DTHREAD_NUMBER=16 --evaluation accelerator.cpp " bambu_version="Version: PandA 2025.02 - Revision 28f48331ee9d5a35097634a1f05ee8f2014235e6-dev/private" timestamp="2025-07-31T09:13:04" benchmark_name="updateGridNew_13">
+  <AREA value="119361"/>
+  <SLICE value="22759"/>
+  <SLICE_LUTS value="119361"/>
+  <AREAxTIME value="1574199.8295209999"/>
   <BRAMS value="0"/>
-  <CLOCK_SLACK value="-0.49099999999999966"/>
-  <CYCLES value="2305"/>
+  <CLOCK_SLACK value="-0.30299999999999994"/>
+  <CYCLES value="2487"/>
   <DRAMS value="600"/>
   <DSPS value="150"/>
-  <FREQUENCY value="182.11619012930251"/>
-  <PERIOD value="5.4909999999999997"/>
-  <REGISTERS value="60226"/>
-  <TIME value="12.656754999999999"/>
-  <TOTAL_CYCLES value="2305"/>
-  <TOTAL_TIME value="12.656754999999999"/>
-  <HLS_execution_time value="439.119999999999999996"/>
+  <FREQUENCY value="188.57250612860645"/>
+  <PERIOD value="5.3029999999999999"/>
+  <REGISTERS value="64092"/>
+  <TIME value="13.188561"/>
+  <TOTAL_CYCLES value="2487"/>
+  <TOTAL_TIME value="13.188561"/>
+  <HLS_execution_time value="461.119999999999999996"/>
 </bambu_results>

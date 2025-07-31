@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<bambu_results bambu_args="/data1/home/curzel/panda-private/bin/bambu --top-fname=updateGridNew -v6 --compiler=I386_CLANG13 -O3 --device-name=xcu55c-2Lfsvh2892-VVD --clock-period=5 --generate-tb=testbench.c --simulator=VERILATOR --channels-number=1 --channels-type=MEM_ACC_11 --evaluation --memory-allocation-policy=NO_BRAM accelerator.c " bambu_version="Version: PandA 2025.02 - Revision 28f48331ee9d5a35097634a1f05ee8f2014235e6-dev/private" timestamp="2025-07-25T14:32:11" benchmark_name="updateGridNew_3">
-  <AREA value="9505"/>
-  <SLICE value="1770"/>
-  <SLICE_LUTS value="9505"/>
-  <AREAxTIME value="297641.79417000001"/>
+<bambu_results bambu_args="/data1/home/curzel/panda-private/bin/bambu --top-fname=updateGridNew -v6 --compiler=I386_CLANG13 -O3 --device-name=xcu55c-2Lfsvh2892-VVD --clock-period=5 --generate-tb=testbench.cpp --simulator=VERILATOR --channels-number=1 --channels-type=MEM_ACC_11 --memory-allocation-policy=NO_BRAM --evaluation accelerator.cpp " bambu_version="Version: PandA 2025.02 - Revision 28f48331ee9d5a35097634a1f05ee8f2014235e6-dev/private" timestamp="2025-07-30T17:34:33" benchmark_name="updateGridNew_9">
+  <AREA value="10044"/>
+  <SLICE value="2321"/>
+  <SLICE_LUTS value="10044"/>
+  <AREAxTIME value="325761.96351599996"/>
   <BRAMS value="0"/>
-  <CLOCK_SLACK value="0.046000000000000263"/>
-  <CYCLES value="6321"/>
+  <CLOCK_SLACK value="0.011000000000000121"/>
+  <CYCLES value="6501"/>
   <DRAMS value="0"/>
   <DSPS value="10"/>
-  <FREQUENCY value="201.85708518368995"/>
-  <PERIOD value="4.9539999999999997"/>
-  <REGISTERS value="4316"/>
-  <TIME value="31.314233999999999"/>
-  <TOTAL_CYCLES value="6321"/>
-  <TOTAL_TIME value="31.314233999999999"/>
-  <HLS_execution_time value="9.35999999999999999969"/>
+  <FREQUENCY value="200.44097013429547"/>
+  <PERIOD value="4.9889999999999999"/>
+  <REGISTERS value="7333"/>
+  <TIME value="32.433488999999994"/>
+  <TOTAL_CYCLES value="6501"/>
+  <TOTAL_TIME value="32.433488999999994"/>
+  <HLS_execution_time value="10.21"/>
 </bambu_results>

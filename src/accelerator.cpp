@@ -44,6 +44,7 @@ double* rk4StepWithNeighbors(double current[3], double neighbors[4][3], int neig
 
 void updateGridNew(double grid[15][3], int cellNeighborMap[15][4]) {
 
+    double tempGrid[15][3];
     #pragma omp parallel num_threads(THREAD_NUMBER)
     {
         #pragma omp for
@@ -71,10 +72,16 @@ void updateGridNew(double grid[15][3], int cellNeighborMap[15][4]) {
                 }
                 double* temp;
                 temp = rk4StepWithNeighbors(currentCell, neighborsForUpdate, neighborhoodSize);
-                grid[localIndex][0] = temp[0];
-                grid[localIndex][1] = temp[1];
-                grid[localIndex][2] = temp[2];
+                tempGrid[localIndex][0] = temp[0];
+                tempGrid[localIndex][1] = temp[1];
+                tempGrid[localIndex][2] = temp[2];
             }
+        }
+        #pragma omp for
+            for (int localIndex = 0; localIndex < 15; ++localIndex) {
+                grid[localIndex][0] = tempGrid[localIndex][0];
+                grid[localIndex][1] = tempGrid[localIndex][1];
+                grid[localIndex][2] = tempGrid[localIndex][2];
         }
     }
         
